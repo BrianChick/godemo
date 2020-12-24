@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/cloudacademy/godemo/math"
-	"github.com/cloudacademy/godemo/util"
+	"github.com/BrianChick/godemo/math"
+	"github.com/BrianChick/godemo/util"
 )
 
 func main() {
@@ -13,10 +13,12 @@ func main() {
 
 	fmt.Println(x)
 	fmt.Println(y)
-
+	fmt.Println("blah")
 	sum := math.Add(x, y)
-	uuid := math.GetUuid()
+	sum2 := math.SubtractNums(x, y)
+	uuid := math.GetUUID()
 
 	fmt.Println(sum)
+	fmt.Println(sum2)
 	fmt.Println(uuid)
 }

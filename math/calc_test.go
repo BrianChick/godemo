@@ -8,3 +8,10 @@ func TestAdd(t *testing.T) {
 		t.Errorf("Add(2, 5) = %d; want 7", ans)
 	}
 }
+
+func TestSubtractNums(t *testing.T) {
+	ans := SubtractNums(10, 5)
+	if ans != 5 {
+		t.Errorf("SubtractNums(10, 5) = %d; want 5", ans)
+	}
+}
